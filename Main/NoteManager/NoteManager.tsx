@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Note } from '../../types/Note';
-import NoteForm from '../NoteForm';
-import NoteTable from '../NoteTable';
+import NoteForm from './NoteForm';
+import NoteTable from './NoteTable';
 
 const NoteManager: React.FC = () => {
   const initialNote: Note = { id: 1, title: 'Initial Note', content: 'This is the initial note content.' };
